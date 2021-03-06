@@ -20,3 +20,14 @@ h1 {
   border-right: 1px solid rgba(199, 199, 199, 0.5);
   border-bottom: 1px solid rgba(199, 199, 199, 0.5);
 }
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.btns > button {
+  font-size: 20px;
+  padding: 5px 20px;
+}
+.draw {
+  background-color: gray;
+}
